@@ -1,6 +1,6 @@
 
-var Ymax=8;                                //MAX # OF PIXEL STEPS IN THE "X" DIRECTION
-var Xmax=8;                                //MAX # OF PIXEL STEPS IN THE "Y" DIRECTION
+var Ymax=10;                                //MAX # OF PIXEL STEPS IN THE "X" DIRECTION
+var Xmax=10;                                //MAX # OF PIXEL STEPS IN THE "Y" DIRECTION
 var Tmax=10000;                        //MAX # OF MILLISECONDS BETWEEN PARAMETER CHANGES
 
 
@@ -9,6 +9,7 @@ floatimages[0]=  'butterfly2.gif';
 floatimages[1] = 'butterfly2.gif';
 floatimages[2] = 'butterfly2.gif';
 floatimages[3] = 'butterfly2.gif';
+floatimages[4] = 'butterfly2.gif';
 
 //*********DO NOT EDIT BELOW***********
 var NS4 = (navigator.appName.indexOf("Netscape")>=0 && parseFloat(navigator.appVersion) >= 4 && parseFloat(navigator.appVersion) < 5)? true : false;
@@ -16,7 +17,7 @@ var IE4 = (document.all)? true : false;
 var NS6 = (parseFloat(navigator.appVersion) >= 5 && navigator.appName.indexOf("Netscape")>=0 )? true: false;
 var wind_w, wind_h, t='', IDs=new Array();
 for(i=0; i<floatimages.length; i++){
-t+=(NS4)?'<layer name="pic'+i+'" visibility="hide" width="10" height="10"><a href="javascript:hidebutterfly()">' : '<div id="pic'+i+'" style="position:absolute; visibility:hidden;width:10px; height:10px; z-index:1000"><a href="javascript:hidebutterfly()">';
+t+=(NS4)?'<layer name="pic'+i+'" visibility="hide" width="10" height="10"><a href="javascript:hidebutterfly()">' : '<div id="pic'+i+'" style="position:absolute; visibility:hidden;width:30px; height:30px; z-index:1000"><a href="javascript:hidebutterfly()">';
 t+='<img src="'+floatimages[i]+'" name="p'+i+'" border="0">';
 t+=(NS4)? '</a></layer>':'</a></div>';
 }
@@ -95,7 +96,7 @@ for(i=0; i<floatimages.length; i++){
 IDs[i]=getid('pic'+i);
 if(NS4){
 IDs[i].W=IDs[i].document.images["p"+i].width;
-IDs[i].H=IDs[i].document.images["p"+i].height;
+IDs[i].H=IDs[i].document.images["p"-200+i].height;
 }
 if(NS6 || IE4){
 IDs[i].W=document.images["p"+i].width;
