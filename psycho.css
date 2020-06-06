@@ -12,7 +12,7 @@
            position: absolute;
          }
 
-        a {
+        g {
            color: red;
            }
 
@@ -66,7 +66,7 @@
              font-style: oblique;
          }
 
-         //*
+         /*
          .box2 {
              background-color: #cfb6bf;
              width: 2000px;
@@ -75,9 +75,13 @@
              margin-top: -70%;
              overflow-y: hidden;
          }
-         *//
+         */
 
-
+         .music {
+             position: fixed;
+             bottom: 0;
+             right: 0;
+         }
 
   @media only screen and (min-width: 600px) {
 /* For mobile: */
@@ -104,6 +108,11 @@
    .body{
    font-size: 22px;
    }
+
+   #myVideo {
+       display: none;
+   }
+
  }
 
 
@@ -111,33 +120,120 @@
   /* For IPAD: */
 
   .head {
-  width: 108.5%;
+  width: 320%;
      }
 
   .c1 {
-  margin-top: 40px;
-  max-width: 50%;
+  margin-top: 150px;
+  max-width: 80%;
   font-size: 28px;
-  left: 25%;
+  left: 12%;
     }
 
          b {
-             font-size: 42px;
-             line-height: 70px;
+             font-size: 84px;
+             line-height: 180px;
          }
 
    .header{
-   margin-bottom: 20px;
-   font-size: 42px;
+   margin-bottom: 150px;
+   font-size: 120px;
    }
 
    .body{
-   font-size: 24px;
+   font-size: 82px;
    }
 
    .yt{
-    height : 300px;
+    height : 900px;
+    margin-top: -5%;
    }
+
+   .box {
+       width: 2000px;
+       height: 14500px;
+       margin-left: 40%;
+       margin-top: 10%;
+      
+   }
+
+   .member {
+       margin: 10%;
+       width: 50%;
+       margin-left: 50%;
+   }
+
+   .bodyleft {
+       font-size: 82px;
+       margin-left: -5%;
+       max-width: 50%;
+       margin-top: -110%;
+   }
+
+   .imgdance {
+       width: 100%;
+       margin-top: 10%;
+       margin-left: -1%;
+   }
+
+   .black {
+       width: 100%;
+       margin-top: 5%;
+       margin-left: -1%;
+   }
+
+   .dancetext  {
+       display: none;
+   }
+
+   .body2 {
+       font-size: 82px;
+       margin-top: 5%;
+   }
+
+   .wendy {
+       width: 100%;
+       margin-left: -1%;
+       margin-top: 5%;
+   }
+
+   .yeri {
+    width: 100%;
+    margin-left: -1%;
+    margin-top: 5%;
+   }
+
+   .wytext  {
+    display: none;
+}
+
+.part2 {
+    font-size: 82px;
+    margin-top: -183%;
+    margin-bottom: 500px;
+}
+
+    .irene {
+        width: 100%;
+    margin-left: -1%;
+    margin-top: 5%;
+    }
+    
+    .butterfly {
+        width: 100%;
+    margin-left: -1%;
+    margin-top: 1150px;
+    }
+
+    .part3 {
+        font-size: 82px;
+        margin-top: 139%;
+    }
+
+    .music  {
+        display: none;
+    }
+    
 
 @media only screen and (min-width: 1366px) {
   /*for notebook*/
@@ -234,31 +330,37 @@
              margin-top: 50px;
              width: 50%;
              margin-left: -1%;
+             display: flex;
+             top: 0;
          }
 
          .yeri {
-             margin-top: -249px;
+             margin-top: -239px;
              width: 50%;
              margin-left: 51%;
+             top: 0;
+             display: flex;
+             
          }
 
          .wytext {
              font-size: 18px;
-             margin-top: 12px;
+             margin-top: 20px;
              margin-left: -0.8%;
 
          }
 
-         .irene {
+         .butterfly {
              width: 50%;
              margin-top: 80px;
              margin-left: -3%;
          }
 
-         .butterfly {
+         .irene {
              width: 50%;
-             margin-top: 20px;
+             margin-top: 10px;
              margin-left: -3%;
+             display: flex;
          }
 
          .part2 {
@@ -279,4 +381,27 @@
             width: 250px;
          }
 
+        /*
+          .wjg {
+              width: 50%;
+              margin-left: -1%;
+              margin-top: -117.5%;
+              display: none;
+          }
+        */
+
+
+@media only screen and (min-width: 1920px) {
+ /*for PC*/
+          .box {
+              margin-left: 7%;
+              margin-top: -1%;
+              z-index: 1;
+          }
+          .music {
+              width: 250px;
+          }
+
  }
+
+
