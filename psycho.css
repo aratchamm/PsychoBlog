@@ -1,86 +1,94 @@
+        .head {
+            background-color: black;
+            filter: grayscale(100%);
+            height: auto;
+        }    
 
-         .head {
-             background-color: black;
-             margin: -1%;
-             filter: grayscale(100%);
-             height: 250px;
-         }
+       g {
+          font-family: 'Prompt', sans-serif;
+          }
 
-        .c1 {
-           font-family: 'Prompt', sans-serif;
-           text-align: left;
-           position: absolute;
-         }
+        b {
+            font-family: 'Special Elite', cursive;
+            font-weight: normal;
+        }
 
-        g {
-           color: red;
-           }
+        .yougotme {
+            text-align: center;
+        }
 
-         b {
-             font-family: 'Special Elite', cursive;
-             font-weight: normal;
-         }
+        c {
+            font-style: oblique;
+        }
 
-         c {
-             font-style: oblique;
-         }
+        d {
+            font-weight: bold;
+        }
 
-         d {
-             font-weight: bold;
-         }
+        e {
+            font-weight: bold;
+            font-style: oblique;
+        }
 
-         e {
-             font-weight: bold;
-             font-style: oblique;
-         }
+        f {
+            font-weight: bold;
+        }
 
-         f {
-             font-weight: bold;
-         }
+        h {
+            color: red;
+        }
 
-         .box {
-             background-color: white;
-             width: 1000px;
-             height: 2550px;
-             position: absolute;
-             top: 55%;
-             left: 17%;
+        .box {
+            margin: 5%;
+            padding: 3%;
+            height: auto;
 
-         }
+            }
 
-         body {
-             background-color: #ffeff5;
-             overflow-x: hidden;
+        body {
+            overflow-x: hidden;
+        }
 
-         }
+        img {
+            width: 100%;
+        }
 
-         img {
-             width: 100%;
-         }
+        .member {
+            width: 100%;
+        }
 
-         .member {
-             width: 100%;
-         }
+        .music {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+       
+        .wendy {
+            width: 100%;
+        }
 
-         .dancetext {
-             font-style: oblique;
-         }
+        .yeri {
+            width: 100%;
+        }
 
-         /*
-         .box2 {
-             background-color: #cfb6bf;
-             width: 2000px;
-             height: 900px;
-             margin-left: -50%;
-             margin-top: -70%;
-             overflow-y: hidden;
-         }
-         */
+        .irene {
+            width: 100%;
+        }
 
-         .music {
-             position: fixed;
-             bottom: 0;
-             right: 0;
-         }
-
+        .butterfly {
+            width: 100%;
+        }
         
+        .contact {
+            margin: 20px;
+            bottom: 0;
+            text-align: right;
+          }
+
+          .name {
+            margin: 20px;
+            bottom: 0;
+            text-align: right;
+          }
+
+    
