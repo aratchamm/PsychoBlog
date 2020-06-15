@@ -152,16 +152,15 @@
             padding-top: 3.2%;
           }
 
-          .contact {
+          button {
             position: fixed;
-            float: left;
+            left: 0%;
             bottom: 0;
             margin: 1%;
-            text-align: center;
             font-size: 120%;
         }
 
-  
+
     
     }
     
