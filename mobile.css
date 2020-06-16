@@ -87,7 +87,7 @@
         padding-top: 5%;
     }
 
-    button {
+    .contact {
         
         bottom: 0;
         text-align: center;
@@ -97,7 +97,10 @@
         color: white;
     }
 
-
+    .buttoncontact {
+        display: none;
+    }
+    
 
     }
 
