@@ -155,23 +155,29 @@
           .contact {
             font-size: 100%;
             float: left;
-            margin-top: 2.5%;
-            
+            margin-top: 5%;            
         }
 
-        .buttoncontact {
+        .buttoncontact {   
             float: right;
-            top: 100%;
-            padding: 0%;
+            display: none;
         }
-        
+
+        .buttoncontact:hover {
+            display: block;
+        }
+
         .contactall {
             position: fixed;
             bottom: 0;
             margin: 0.7%;
+            
+        }
+
+        .contactall :hover + .buttoncontact {
+            display: block;
         }
         
-
 
     
     }
