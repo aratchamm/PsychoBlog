@@ -26,9 +26,6 @@ $(document).ready(function() {
  
   $('.js-tooltip').tooltip();
 
-  // Copy to clipboard
-  // Grab any text in the attribute 'data-copy' and pass it to the 
-  // copy function
   $('.js-copy').click(function() {
     var text = $(this).attr('data-copy');
     var el = $(this);
