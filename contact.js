@@ -17,7 +17,7 @@ function copyToClipboard(text, el) {
     document.body.removeChild(copyTextArea);
     el.attr('data-original-title', elOriginalText);
   } else {
-    // Fallback if browser doesn't support .execCommand('copy')
+   .execCommand('copy')
     window.prompt("Copy to clipboard: Ctrl+C or Command+C, Enter", text);
   }
 }
